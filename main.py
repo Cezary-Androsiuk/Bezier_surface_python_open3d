@@ -195,6 +195,7 @@ def loadPointsFromFile(file_name, transform_position, swich_direction = True):
                     [x + transform_position[0], y + transform_position[1], z + transform_position[2]])
 
         line_count += 1
+    object_surfaces_array.append(single_surface_array_points)
     return object_surfaces_array
 
 
